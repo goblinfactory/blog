@@ -19,7 +19,12 @@ My backups started running very slowly, even when I was backing up to a local US
 - temporarily disable sophos `live protection`. At the very least disable during the first big backup, backing up for the first time.
 - In some circumstances, test to see if helps, can temporarily give backup process higher priority `sudo sysctl debug.lowpri_throttle_enabled=0`. (I believe this might give ***all*** debug processes higher priority, so this needs further investigation)
 - when finished backing up, restart, reboot or reset debug priorities.  `sudo sysctl debug.lowpri_throttle_enabled=1` (not 100% certain if this is correct?)
-- Result? I've gone from a backup not being able to calculate the time remaining to, 8 hours left, finally to around 4 hours to backup around 400gb, which is about right.
+- Result? I've gone from a backup not being able to calculate the time remaining (0 Mb / second), to 8 hours (13 Mb / second)  finally to around (111 Mb per second, sustained!) , which is about right, and really hard to do actually. 
+- most hard drives will backup really quickly for a few minutes, then their internal buffers (or whatever) get saturated, and it invetably slows down to around 30Mb/second for most hardware and ports. Super difficult to get a really long sustained transfer rate lasting for close on an hour. 
+
+***TL;DR***
+
+- apparently if you want to do 1 thing only, then disable ***SOPHOS live protection*** this seems to be the biggest cause of headaches.
 
 ![Time machine finally backing up at a somewhat decent speed](img/2017-01-time-machine-finally-backing-up-faster.png)
 
