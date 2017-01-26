@@ -15,6 +15,8 @@ My backups started running very slowly, even when I was backing up to a local US
 
 - use external usb 3 on a thunderbolt connection, don't do over network. (obvious)
 - exclude your `java android sdk` folders, these contain gigabyte files. (You'll have some big files here if you do any android, xamarin, ios, ionic dev work.)
+- close and quit `dropbox` when doing the really big first time (backup). (I still need to investigate whether dropbox has or is causing my backups to hang. TBD) My backup was hanging for almost 20 minutes, and only when I stopped dropbox did it continue again. (this could be co-incidence, need to check.) Might need to do this everyday. 
+- I do not recommend excluding dropbox folders from timemachine backups since you'll be relying on dropbox history, when needing to restore to a previous version. (**To be investigated, not sure if DB is a real issue causing hanging.**)
 - exclude any vmware, virtualbox files, etc.
 - temporarily disable sophos `live protection`. At the very least disable during the first big backup, backing up for the first time.
 - In some circumstances, test to see if helps, can temporarily give backup process higher priority `sudo sysctl debug.lowpri_throttle_enabled=0`. (I believe this might give ***all*** debug processes higher priority, so this needs further investigation)
