@@ -9,11 +9,11 @@ Idea : use the github commit history to determine updates to a blog post. Work o
 
 #### 26.01.17
 
-My backups started running very slowly, even when I was backing up to a local USB disk, and would sometimes look like they had 'hung' for hours. After changing 
+My backups started running very slowly, even when I was backing up to a local USB disk, and would sometimes look like they had 'hung' for hours. The following fixed it for me.
 
 **It's such a Pity Moore's Law never applied to backups!**
 
-- use external usb, don't do over network. (obvious)
+- use external usb 3 on a thunderbolt connection, don't do over network. (obvious)
 - exclude your `java android sdk` folders, these contain gigabyte files. (You'll have some big files here if you do any android, xamarin, ios, ionic dev work.)
 - exclude any vmware, virtualbox files, etc.
 - temporarily disable sophos `live protection`. At the very least disable during the first big backup, backing up for the first time.
