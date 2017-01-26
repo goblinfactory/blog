@@ -1,7 +1,7 @@
 # blog
 experimental blog using github
 
-Idea : use the github commit history to determine updates to a blog post. Work out some conventions and stick to them, build a simple site, or use the static site generator?
+Idea : use the github commit history to determine updates to a blog post. Work out some conventions and stick to them, build a simple site, or use the static site generator? At least should give me somewhere to jot down tech-geek thoughts when out for a walk to get a good  c[_] of coffee.
 
 ## January 2017
 
