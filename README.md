@@ -21,6 +21,6 @@ My backups started running very slowly, even when I was backing up to a local US
 - when finished backing up, restart, reboot or reset debug priorities.  `sudo sysctl debug.lowpri_throttle_enabled=1` (not 100% certain if this is correct?)
 - Result? I've gone from a backup not being able to calculate the time remaining to, 8 hours left, finally to around 4 hours to backup around 400gb, which is about right.
 
-![Time machine finally backing up at a somewhat decent speed](img/2017-01-time-machine-finally-backing-up-faster)
+![Time machine finally backing up at a somewhat decent speed](img/2017-01-time-machine-finally-backing-up-faster.png)
 
 
