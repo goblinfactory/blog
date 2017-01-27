@@ -13,7 +13,25 @@ My backups started running very slowly, even when I was backing up to a local US
 
 **It's such a Pity Moore's Law never applied to backups!**
 
+- *warning, if you're not technically skilled, following the steps below will most likely trash your machine* This is not a self help page, just my personal notes.
+
 - use external usb 3 on a thunderbolt connection, don't do over network. (obvious)
+- exclude large files you don't need to backup (I'm a dev, so my list looks like this) of course YMMV.
+- my excludes save me having to backup 230GB! 
+- the biggest reason I exclude these files, is some of them are single files, meaning if I open a virtual machine and do nothing other than say hello, I'll have to backup the entire 30GB file!
+- use a good tool to help identify large files that may or may not need to be backed up
+
+ ```
+ ~/Downloads  // >20GB
+ ~/Documents/Parallels // >40GB
+ ~/Music/iTunes/iTuness Media/Podcasts // phew! 37GB
+ ~/Library/Android/sdk  // 32GB
+ ~/Library/Developer/Xamarin/android-sdk-macosx/system-images // 29GB
+ ~/Library/Android/sdk/system-images // 30GB
+ ~/Documents/Virtual Machines.localized // 39GB
+ ```
+- I used Daiy Disk (disk file visualizer) to help me find a few of the large files above
+ - ![Daisy disk](img/2017-01-daisy-disk.png)
 - exclude your `java android sdk` folders, these contain gigabyte files. (You'll have some big files here if you do any android, xamarin, ios, ionic dev work.)
 - close and quit `dropbox` when doing the really big first time (backup). (I still need to investigate whether dropbox has or is causing my backups to hang. TBD) My backup was hanging for almost 20 minutes, and only when I stopped dropbox did it continue again. (this could be co-incidence, need to check.) Might need to do this everyday. 
 - I do not recommend excluding dropbox folders from timemachine backups since you'll be relying on dropbox history, when needing to restore to a previous version. (**To be investigated, not sure if DB is a real issue causing hanging.**)
