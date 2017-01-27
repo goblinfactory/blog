@@ -30,6 +30,8 @@ My backups started running very slowly, even when I was backing up to a local US
 
 ![Time machine finally backing up at a somewhat decent speed](img/2017-01-time-machine-finally-backing-up-faster.png)
 
+----
+
 ### 8 simple 1 line commands to gaurantee a super interesting dev meetup `¯\_(ツ)_/¯`
 
 #### 27.01.17
