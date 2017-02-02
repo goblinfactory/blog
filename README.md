@@ -1,8 +1,8 @@
 # blog
 
-experimental blog using the githubz's
+experimental blog using the githubz's.
 
-## February 2017
+## February 2017 
 
 * 01.02.17 - [favourite shortcut page to Mac dev stuff I need handy](/posts/2017-02-feb/ionic-dev-settings.md)
 
