@@ -1,6 +1,5 @@
 # blog
-experimental blog using github
-
+experimental blog using githubz
 
 ### Ionic dev settings
 
