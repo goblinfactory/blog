@@ -4,7 +4,7 @@ experimental blog using the githubz's.
 
 ## February 2017 
 
-* 02.02.17 - [Winter geek beers in Cambridge tomorrow night, most likely will be board games, beer and strong opinions, bwaa haa ha!](http://www.meetup.com/CAMDUG/)
+* 02.02.17 - [Winter geek beers in Cambridge tomorrow night, most likely will be board games, beer and strong opinions, bwaa haa ha!](https://www.meetup.com/CAMDUG/events/237139705/)
 * 02.02.17 - [Goblinfactory's `yeoman` generator for scaffoding `Ionic2` starter pages, `yo gf` now available as an npm package](https://www.npmjs.com/package/generator-gf)
 * 02.02.17 - [showing hidden files and folders on Mac.](/posts/2017-02-feb/how-to-show-hidden-files-and-folders-on-mac.md)
 * 02.02.17 - [declutter VSCode, toggle hiding or showing `.js` and `.map` files in vscode.](/posts/2017-02-feb/declutter-the-ionic-ide.md)
