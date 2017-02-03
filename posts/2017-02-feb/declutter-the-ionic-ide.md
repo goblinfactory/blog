@@ -15,7 +15,8 @@
 {
   "files.exclude": {
     "**/app/*.js": true,
-    "**/app/*.map": false
+    "**/app/**/*.map": true,
+    "**/pages/**/*.map": true
   }
 }
 
