@@ -16,10 +16,10 @@
   "files.exclude": {
     "**/app/*.js": true,
     "**/app/**/*.map": true,
-    "**/pages/**/*.map": true
+    "**/pages/**/*.map": true,
+    "**/pages/**/*.js": true
   }
 }
-
 ```
 
  - press `cmd+shift+p` and enter `peep toggle` to toggle hiding or showing the `.map` and `.js` files. In a big `Ionic2` project, this makes quite a difference. 
