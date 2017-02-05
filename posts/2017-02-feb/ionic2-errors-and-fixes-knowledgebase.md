@@ -4,5 +4,5 @@ Some error messages dont point you in the right direction, and judging by the la
 
 > [`Error in ./Test1Page class Test1Page - caused by: No component factory found for YourNewlyCreatedThingPage`](knowledge-base/no-component-factory-found-for-page.md) <br/>
 
-[article and screenshots](no-component-factory-found-for-page.md)
+[article and screenshots](knowledge-base/no-component-factory-found-for-page.md)
 
