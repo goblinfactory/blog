@@ -9,3 +9,6 @@
 
 ![missing entry component registration](../img/missing-entry-component.png)
 
+### Home
+
+[back to my experimental blog](../../README.md)

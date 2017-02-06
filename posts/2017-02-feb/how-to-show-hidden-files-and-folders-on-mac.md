@@ -11,3 +11,7 @@ Warning: changing this setting can result in serious damage to your Mac as it wi
 > `defaults write com.apple.finder AppleShowAllFiles NO`
 
 After running either of the above commands, alt+right click on finder and select relaunch for the changes to take effect. Finder will restart and re-open at the same place it was before.
+
+### Home
+
+[back to my experimental blog](../../README.md)

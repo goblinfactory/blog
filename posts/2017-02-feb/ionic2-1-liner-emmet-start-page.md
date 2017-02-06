@@ -76,4 +76,6 @@ I cut the emmet slightly short in order for it to fit in a tweet.
 * http://docs.emmet.io/cheat-sheet/
 * http://docs.emmet.io/
 
+### Home
+
 [back to my experimental blog](../../README.md)

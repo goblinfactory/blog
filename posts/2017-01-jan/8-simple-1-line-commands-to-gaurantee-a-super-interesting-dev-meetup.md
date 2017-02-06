@@ -15,3 +15,7 @@
 ```
 
 [copied from my notes while playing with ionic2.](https://github.com/goblinfactory/study-ionic-sandbox)
+
+### Home
+
+[back to my experimental blog](../../README.md)

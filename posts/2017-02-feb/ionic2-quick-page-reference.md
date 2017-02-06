@@ -24,3 +24,7 @@
 ## references
 
 * http://ionicframework.com/docs/v2/intro/tutorial/project-structure/
+
+### home
+
+[back to my experimental blog](../../README.md)

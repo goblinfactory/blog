@@ -37,3 +37,7 @@ My backups started running very slowly, even when I was backing up to a local US
 - apparently if you want to do 1 thing only, then disable ***SOPHOS live protection*** during backups, this seems to be the biggest cause of headaches.
 
 ![Time machine finally backing up at a somewhat decent speed](img/time-machine-finally-backing-up-faster.png)
+
+### Home
+
+[back to my experimental blog](../../README.md)
