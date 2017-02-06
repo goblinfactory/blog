@@ -2,6 +2,8 @@
 
 `VSCode` [supports `Emmet` natively out of the box](http://docs.emmet.io/), so, just for fun, how far can emmit really go? here's a few (`1 for now`) Ionic2 emmets. 
 
+At the very least it's a fun exercise to practice your emmet. After writing a few difficult deeply nested pages, the simpler stuff, especially tables and lists with demo data becomes much easier.
+
 ```
 ion-header>ion-navbar>button[ion-button][menuToggle]>ion-icon[name=menu]^ion-title{ApName}^ion-toolbar[color=secondary]>ion-title{PgName}
 ```
@@ -21,7 +23,7 @@ ion-header>ion-navbar>button[ion-button][menuToggle]>ion-icon[name=menu]^ion-tit
 </ion-header>
 ```
 
-**which gives you this basic starter Ionic2 page**
+**which `almost` gives you everything for this basic starter Ionic2 page**
 
 
 ![basic starter Ionic2 page generated using emmet](img/emmet-ionic.png)
@@ -29,3 +31,15 @@ ion-header>ion-navbar>button[ion-button][menuToggle]>ion-icon[name=menu]^ion-tit
 ### References
 
 * http://docs.emmet.io/cheat-sheet/
+
+### A better way to display an emmet snippets?
+
+```
+ion-header>
+    ion-navbar>
+        button[ion-button][menuToggle]>
+            ion-icon[name=menu]
+        ^ion-title{ApName}
+    ^ion-toolbar[color=secondary]>
+        ion-title{PgName}
+```
