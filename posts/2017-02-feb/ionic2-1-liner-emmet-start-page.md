@@ -4,6 +4,28 @@
 
 At the very least it's a fun exercise to practice your emmet. After writing a few difficult deeply nested pages, the simpler stuff, especially tables and lists with demo data becomes much easier.
 
+### Ion list with sample data
+
+> `ion-list>ion-button[ion-item][(click)="item$Tapped()"]*5`
+
+**produces**
+
+```html
+<ion-list>
+  <ion-button ion-item="" (click)="item1Tapped()"></ion-button>
+  <ion-button ion-item="" (click)="item2Tapped()"></ion-button>
+  <ion-button ion-item="" (click)="item3Tapped()"></ion-button>
+  <ion-button ion-item="" (click)="item4Tapped()"></ion-button>
+  <ion-button ion-item="" (click)="item5Tapped()"></ion-button>
+</ion-list>
+```
+
+Requires a little cleanup afterwards, `ion-item=""` needs to be `ion-item` but this does not actually cause a problem, other than some slight nausea from fellow developers and self.
+
+### whole Ionic2 page with 1 emmet line that fits in a tweet
+
+because we can ;-D 
+
 ```
 ion-header>ion-navbar>button[ion-button][menuToggle]>ion-icon[name=menu]^ion-title{ApName}^ion-toolbar[color=secondary]>ion-title{PgName}
 ```
