@@ -4,6 +4,7 @@ Some error messages dont point you in the right direction, and judging by the la
 
 > [`invalid page component: tab1`](knowledge-base/invalid-page-component-tab1.md)
 
+
 > [`Error in ./Test1Page class Test1Page - caused by: No component factory found for YourNewlyCreatedThingPage`](knowledge-base/no-component-factory-found-for-page.md)
 
 ### Home
