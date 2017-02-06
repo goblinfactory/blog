@@ -35,7 +35,7 @@ I cut the emmet slightly short in order for it to fit in a tweet.
 (ion-header>ion-navbar>button[ion-button][menuToggle]>ion-icon[name=menu]^ion-title{ApName}^ion-toolbar[color=secondary]>ion-title{PgName})+ion-content[padding]{Hello my teams}
 ```
 
-> and produces
+> and produces the html below, which the full template html for the screenshot shown. 
 
 ```html
 <ion-header>
