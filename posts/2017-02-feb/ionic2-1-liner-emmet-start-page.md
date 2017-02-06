@@ -55,20 +55,23 @@ I cut the emmet slightly short in order for it to fit in a tweet.
 
 ```
 
-
-
-### References
-
-* http://docs.emmet.io/cheat-sheet/
-
-### A better way to display an emmet snippets?
+### heres the emmet snippet broken down
 
 ```
-ion-header>
+(ion-header>
     ion-navbar>
         button[ion-button][menuToggle]>
             ion-icon[name=menu]
         ^ion-title{ApName}
     ^ion-toolbar[color=secondary]>
-        ion-title{PgName}
+        ion-title{PgName})
+ +ion-content[padding]{Hello my-teams}
 ```
+
+* the ` > ` indicates what follows is a child, lines are indented for display purposes.
+* the ` ^ ` indicates that what follows 'pops' back up a level, which is why I've shown it dedented above. 
+
+### References
+
+* http://docs.emmet.io/cheat-sheet/
+* http://docs.emmet.io/
