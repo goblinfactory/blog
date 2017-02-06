@@ -4,7 +4,7 @@ experimental blog using the githubz's.
 
 ## February 2017 
 
-
+* 05.02.17 - [fun with `Emmet`, can I write a 1 liner emmet string for new Ionic2 toolbar and toogle menu page?](/posts/2017-02-feb/ionic2-1-liner-emmet-start-page.md)
 * 05.02.17 - [Ionic2 errors and fixes knowledge base](/posts/2017-02-feb/ionic2-errors-and-fixes-knowledgebase.md)
 * 04.02.17 - [Ionic2 quick page reference](/posts/2017-02-feb/ionic2-quick-page-reference.md)
 * 02.02.17 - [Winter geek beers in Cambridge tomorrow night, most likely will be board games, beer and strong opinions!](https://www.meetup.com/CAMDUG/events/237139705/)
