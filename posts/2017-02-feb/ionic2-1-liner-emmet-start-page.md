@@ -21,7 +21,7 @@ ion-header>ion-navbar>button[ion-button][menuToggle]>ion-icon[name=menu]^ion-tit
 </ion-header>
 ```
 
-**which gives you this basic starter Ionic2 page at the bottom of this page**
+**which gives you this basic starter Ionic2 page**
 
 
 ![basic starter Ionic2 page generated using emmet](img/emmet-ionic.png)
