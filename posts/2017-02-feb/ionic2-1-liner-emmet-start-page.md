@@ -25,8 +25,37 @@ ion-header>ion-navbar>button[ion-button][menuToggle]>ion-icon[name=menu]^ion-tit
 
 **which `almost` gives you everything for this basic starter Ionic2 page**
 
+I cut the emmet slightly short in order for it to fit in a tweet. 
 
 ![basic starter Ionic2 page generated using emmet](img/emmet-ionic.png)
+
+> The emmet for a whole page is this
+
+```Emmet
+(ion-header>ion-navbar>button[ion-button][menuToggle]>ion-icon[name=menu]^ion-title{ApName}^ion-toolbar[color=secondary]>ion-title{PgName})+ion-content[padding]{Hello my teams}
+```
+
+> and produces
+
+```html
+<ion-header>
+  <ion-navbar>
+    <button ion-button="" menuToggle="">
+      <ion-icon name="menu"></ion-icon></button>
+    <ion-title>ApName</ion-title>
+  </ion-navbar>
+  <ion-toolbar color="secondary">
+    <ion-title>PgName</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    Hello my-teams
+</ion-content>
+
+```
+
+
 
 ### References
 
