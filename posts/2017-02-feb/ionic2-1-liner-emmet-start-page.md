@@ -6,21 +6,21 @@ At the very least it's a fun exercise to practice your emmet. After writing a fe
 
 ### Ion list with sample data
 
-> `ion-list>ion-button[ion-item][(click)="item$Tapped()"]*5`
+> `ion-list>button[ion-button][ion-item][(click)="item$Tapped()"]*5`
 
 **produces**
 
 ```html
 <ion-list>
-  <ion-button ion-item="" (click)="item1Tapped()"></ion-button>
-  <ion-button ion-item="" (click)="item2Tapped()"></ion-button>
-  <ion-button ion-item="" (click)="item3Tapped()"></ion-button>
-  <ion-button ion-item="" (click)="item4Tapped()"></ion-button>
-  <ion-button ion-item="" (click)="item5Tapped()"></ion-button>
+  <button ion-button="" ion-item="" (click)="item1Tapped()"></button>
+  <button ion-button="" ion-item="" (click)="item2Tapped()"></button>
+  <button ion-button="" ion-item="" (click)="item3Tapped()"></button>
+  <button ion-button="" ion-item="" (click)="item4Tapped()"></button>
+  <button ion-button="" ion-item="" (click)="item5Tapped()"></button>
 </ion-list>
 ```
 
-Requires a little cleanup afterwards, `ion-item=""` needs to be `ion-item` but this does not actually cause a problem, other than some slight nausea from fellow developers and self.
+Requires a little cleanup afterwards, `ion-button="" ion-item=""` needs to be `ion-button ion-item` but this does not actually cause a problem, other than some slight nausea from fellow developers and self.
 
 ### whole Ionic2 page with 1 emmet line that fits in a tweet
 
