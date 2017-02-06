@@ -6,3 +6,6 @@ Some error messages dont point you in the right direction, and judging by the la
 
 [article and screenshots](knowledge-base/no-component-factory-found-for-page.md)
 
+### Home
+
+[back to my experimental blog](../../README.md)
