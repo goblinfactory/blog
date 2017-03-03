@@ -71,16 +71,5 @@ Just for fun, here's some code showing extending Linq with your own custom metho
 	{
 		while(true)	yield return ++howBigDidWeGet;
 	}
-	
-	static int howBigDidWeGet = 1;
-	public IEnumerable<int> AllPositiveLongNumbers()
-	{
-		yield return howBigDidWeGet++;
-	}
-
-
-
-
-
 
 ```
