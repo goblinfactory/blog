@@ -4,7 +4,7 @@ experimental blog using the githubz's.
 
 ## March 2017 
 
-* 03.03.17 - [and the most under-valued friend award goes to ... **`IEnumerable.GetEnumerator()`**](/posts/2017-03-mar/enumerators-are-your-friend.md) 
+* 03.03.17 - [and the award for most under-valued friend goes to ... **`IEnumerable.GetEnumerator()`**](/posts/2017-03-mar/enumerators-are-your-friend.md) 
 
 ## February 2017 
 
