@@ -37,7 +37,6 @@ Just for fun, here's some code showing extending Linq with your own custom metho
 
 	void Main()
 	{
-		Console.WriteLine(long.MaxValue);
 		var arr1 = new[] { 1, 2, 3, 4 };
 		var arr2 = new[] { 4, 5, 6 };
 		var arr3 = new[] { 7, 8, 9};
