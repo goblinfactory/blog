@@ -59,7 +59,8 @@ Just for fun, here's some code showing extending Linq with your own custom metho
 		// both empty
 		Assert.AreEqual(new int[] {  }, arr4.RoundRobin(arr4).ToArray());
 	
-		// prove it's Linq! mmm Might make an interesting interview question, discuss why this is or is not a good proof?
+		// prove it's Linq! mmm Might make an interesting interview question, 
+		// discuss why this is or is not a good proof?
 		Assert.AreEqual(new[] { 1, 7, 2, 8, 3}, AllPositiveLongNumbers().RoundRobin(arr3).Take(5).ToArray());
 		Assert.AreEqual(3,howBigDidWeGet);
 		
