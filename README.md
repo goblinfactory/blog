@@ -2,6 +2,10 @@
 
 experimental blog using the githubz's.
 
+## March 2017 
+
+* 03.03.17 - [fun with linq, enumerators are your friend, simple performant round robin example](/posts/2017-03-mar/enumerators-are-your-friend.md) 
+
 ## February 2017 
 
 * 05.02.17 - [fun with `Emmet`, can I write a 1 liner emmet string for new Ionic2 toolbar and toogle menu page?](/posts/2017-02-feb/ionic2-1-liner-emmet-start-page.md)
