@@ -4,6 +4,7 @@ experimental blog using the githubz's.
 
 ## March 2017 
 
+* 20.03.17 - [I've just released Konsole v 2.0 - new Window and ProgressBar library](https://github.com/goblinfactory/konsole)
 * 03.03.17 - [and the award for most under-valued friend goes to ... **`IEnumerable.GetEnumerator()`**](/posts/2017-03-mar/enumerators-are-your-friend.md) 
 
 ## February 2017 
