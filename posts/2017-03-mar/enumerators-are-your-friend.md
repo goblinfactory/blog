@@ -34,10 +34,8 @@ Just for fun, here's some code showing extending Linq with your own custom metho
 			}
 		}
 	}
-
 	void Main()
 	{
-		Console.WriteLine(long.MaxValue);
 		var arr1 = new[] { 1, 2, 3, 4 };
 		var arr2 = new[] { 4, 5, 6 };
 		var arr3 = new[] { 7, 8, 9};
@@ -61,22 +59,18 @@ Just for fun, here's some code showing extending Linq with your own custom metho
 		// both empty
 		Assert.AreEqual(new int[] {  }, arr4.RoundRobin(arr4).ToArray());
 	
-		// prove it's Linq! mmm Might make an interesting interview question, discuss why this is or is not a good proof?
-		Assert.AreEqual(new[] { 1, 7, 8}, AllPositiveLongNumbers().RoundRobin(arr3).Take(3).ToArray());
-		Assert.AreEqual(2,howBigDidWeGet);
+		// prove it's Linq! mmm Might make an interesting interview question, 
+		// discuss why this is or is not a good proof?
+		Assert.AreEqual(new[] { 1, 7, 2, 8, 3}, AllPositiveLongNumbers().RoundRobin(arr3).Take(5).ToArray());
+		Assert.AreEqual(3,howBigDidWeGet);
 		
 		Console.WriteLine("pass");
 	}
 	
-	static int howBigDidWeGet = 1;
+	static int howBigDidWeGet = 0;
 	public IEnumerable<int> AllPositiveLongNumbers()
 	{
-		yield return howBigDidWeGet++;
+		while(true)	yield return ++howBigDidWeGet;
 	}
-
-
-
-
-
 
 ```
